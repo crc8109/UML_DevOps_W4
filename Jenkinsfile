@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'uname -a'
-                sh 'echo Hello from Boston'
+                sh 'echo This is a testing branch'
             }
         }
     }
